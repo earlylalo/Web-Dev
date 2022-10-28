@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+            /* Youtube */
+            button.btn-Subscribe {
+                  background-color: rgb(202, 0, 0);
+                  border: none;
+                  color: white;
+                  width: 105px;
+                  border-radius: 2.5px;
+                  height: 40px;
+                  margin: 5px;
+                  transition: background-color 0.15s;
+            } button.btn-Subscribe:hover {
+                        background-color: rgb(136, 13, 13);
+                        cursor: pointer;
+                        /* opacity: 0; */
+                  } button.btn-Subscribe:active {
+                              background-color: rgb(230, 11, 11);
+                        }
+
+            /* Join */
+            button.btn-Join {
+                  background-color: white;
+                  color: rgb(1, 83, 206);
+                  border-width: 1.3px;
+                  border-color: rgb(1, 83, 206);
+                  border-style: solid;
+                  border-radius: 2.5px;
+                  width: 55px;
+                  height: 40px;
+                  margin: 5px;
+                  transition: background-color 0.15s, color 0.15s, border 0.15s, font-weight 0.15s;
+            } button.btn-Join:hover {
+                        background-color: rgb(59, 175, 253);
+                        color: white;
+                        cursor: pointer;
+                        border: none;
+                        font-weight: bold;
+                  } button.btn-Join:active {
+                              background-color: rgb(6, 134, 219);
+                        }
+
+            /* Tweet */
+            button.btn-Tweet {
+                  background-color: rgb(2, 131, 218);
+                  color: white;
+                  font-weight: bold;
+                  font-size: 15px;
+                  height: 38px;
+                  border: none;
+                  border-radius: 19px;
+                  width: 70px;
+                  height: 40px;
+                  margin: 5px;
+                  transition: background-color 0.3s;               
+            } button.btn-Tweet:hover {
+                        background-color: rgb(4, 89, 146);
+                        cursor: pointer;
+                  } button.btn-Tweet:active {
+                              background-color: rgb(35, 159, 241);
+                        }
+
+            /* Amazon */
+            button.btn-amazon {
+                  background-color: rgb(253, 217, 38);
+                  border: none;
+                  width: 150px;
+                  height: 35px;
+                  border-radius: 17px;
+                  transition: background-color 0.15s;
+            } button.btn-amazon:hover {
+                        background-color: rgb(207, 174, 5);
+                        cursor: pointer;
+                  } button.btn-amazon:active {
+                              background-color: rgb(255, 213, 0);
+                        }
+
+            /* Bootstrap */
+            button.btn-boot-1 {
+                  background-color: rgb(121, 82, 179);
+                  border: none;
+                  color: white;
+                  width: 90px;
+                  font-weight: bold;
+                  height: 35px;
+                  border-radius: 2px;
+                  transition: background-color 0.15s;
+            } button.btn-boot-1:hover {
+                        background-color: rgb(87, 56, 134);
+                        cursor: pointer;
+                  } button.btn-boot-1:active {
+                              background-color: rgb(121, 82, 179);
+                        }
+            button.btn-boot-2 {
+                  background-color: white;
+                  border-color: rgb(108, 117, 125);
+                  color: rgb(108, 117, 125);
+                  width: 90px;
+                  font-weight: bold;
+                  height: 35px;
+                  border-radius: 2px;
+                  border-style: solid;
+                  border-width: 1px;
+                  transition: background-color 0.15s, color 0.15s;
+            } button.btn-boot-2:hover {
+                        cursor: pointer;
+                        background-color: rgb(108, 117, 125);
+                        color: white;
+                  } button.btn-boot-2:active {
+                              background-color: rgb(131, 148, 161);
+                              border: none;
+                        }
+
+            /* Github */
+            button.btn-git {
+                  background-color: rgb(46, 164, 79);
+                  border: none;
+                  color: white;
+                  width: 90px;
+                  font-weight: bold;
+                  height: 35px;
+                  border-radius: 2px;
+                  transition: background-color 0.15s, box-shadow 0.15s;
+            } button.btn-git:hover {
+                        background-color: rgb(51, 139, 77);
+                        cursor: pointer;
+                        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+                  } button.btn-git:active {
+                              background-color: rgb(24, 180, 68);
+                              box-shadow: none;
+                        }
+
+            /* LinkIn */
+            button.btn-linkedIn-1 {
+                  background-color: rgb(10, 102, 194);
+                  color: white;
+                  font-weight: bold;
+                  border-radius: 15px;
+                  border: none;
+                  width: 205px;
+                  height: 38px;
+                  cursor: pointer;
+                  transition: background-color 0.15s;
+            } button.btn-linkedIn-1:hover {
+                        background-color: rgb(10, 73, 136);
+                  } button.btn-linkedIn-1:active {
+                              background-color: rgb(25, 118, 211);
+                        }
+
+            button.btn-linkedIn-2 {
+                  background-color: white;
+                  border-color: rgb(10, 102, 194);
+                  color: rgb(10, 102, 194);
+                  font-weight: bold;
+                  width: 70px;
+                  height: 38px;
+                  border-width: 1px;
+                  border-radius: 15px;
+                  border-style: solid;
+                  transition: background-color 0.15s, border-width 0.15s;
+            } button.btn-linkedIn-2:hover {
+                        background-color: rgba(10, 102, 194, 0.24);
+                        border-width: 2px;
+                        cursor: pointer;
+                  } button.btn-linkedIn-2:active {
+                              background-color: white;
+                              border-width: 1px;
+                        }
+
+            /* Uber */
+            button.btn-uber {
+                  background-color: black;
+                  color: white;
+                  height: 40px;
+                  width: 113px;
+                  transition: background-color 0.15s, border 0.15s;
+            } button.btn-uber:hover {
+                        background-color: rgba(0, 0, 0, 0.801);
+                        cursor: pointer;
+                        border: none;
+                  } button.btn-uber:active {
+                              background-color: rgb(19, 19, 19);
+                        }
+
+      </style>
+      <title>Buttons</title>
+</head>
+<body>
+      <p>Youtube</p>
+      <button class="btn btn-Subscribe active">SUBSCRIBE</button>
+
+      <p>Join</p>
+      <button class="btn btn-Join">JOIN</button>
+
+      <p>Tweeter</p>
+      <button class="btn btn-Tweet">Tweet</button>
+
+      <p>Amazon</p>
+      <button class="btn btn-amazon">Add to Cart</button>
+
+      <p>Bootstrap</p>
+      <button class="btn btn-boot-1">Get started</button>
+      <button class="btn btn-boot-2">Download</button>
+
+      <p>Github</p>
+      <button class="btn btn-git">Sign up</button>
+
+      <p>LinkedIn</p>
+      <button class="btn btn-linkedIn-1">Apply on company website</button>
+      <button class="btn btn-linkedIn-2">Save</button>
+
+      <p>Uber</p>
+      <button class="btn btn-uber">Request now</button>
+
+</body>
+</html>
